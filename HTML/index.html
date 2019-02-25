@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" style="text/css" href="../PrivacyMonitorExtension/Style%20Sheet/styles.css">
+        <style>
+            .privacyMonitor {
+                display: block !important;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="privacyMonitor" class="privacyMonitor">
+            <div class="privacyMonitor_header">
+                <img src="../PrivacyMonitorExtension/Icons/PrivacyMonitorLogo@2x.png" class="privacyMonitor_logo" alt="Privacy Monitor by Osano">
+                <a href="#" class="privacyMonitor_close"></a>
+            </div>
+            <div class="privacyMonitor_separator"></div>
+            <div id="privacyMonitor_content" class="privacyMonitor_content">
+                <div id="privacyMonitor_domain" class="privacyMonitor_domain">microsoft.com</div>
+                <div class="privacyMonitor_stackContainer">
+                    <div id="privacyMonitor_scoreChart">
+                        <svg width="100%" height="100%" viewBox="0 0 38 38" class="donut">
+                            <circle class="donut-hole" cx="19" cy="19" r="15.91549430918954" fill="#fff"></circle>
+                            <circle class="donut-ring" cx="19" cy="19" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="6"></circle>
+                            <circle class="donut-segment" cx="19" cy="19" r="15.91549430918954" fill="transparent" stroke="#0D78BE" stroke-width="6" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+                            <circle class="donut-segment" cx="19" cy="19" r="15.91549430918954" fill="transparent" stroke="white" stroke-width="6" stroke-dasharray="1 99" stroke-dashoffset="-55"></circle>
+                            <image xlink:href="../PrivacyMonitorExtension/Icons/TrendImprovingIcon.png" x="50%" y="50%" height="14" width="14" transform="translate(-7,-7)"/>
+                        </svg>
+                    </div>
+                    <div id="privacyMonitor_scoreContainer">
+                        <div class="privacyMonitor_score"><span id="privacyMonitor_scoreValue">Score: 750</span></div>
+                        <div id="privacyMonitor_scoreDescription" class="privacyMonitor_scoreDescription">Very Good</div>
+                        <div class="privacyMonitor_trend">Trend: <span id="privacyMonitor_trendValue" class="privacyMonitor_trendValue">Improving</span></div>
+                    </div>
+                    <div id="privacyMonitor_loader"></div>
+                    <div id="privacyMonitor_error">
+                        <a href="#" id="privacyMonitor_errorButton">Request score</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>SAMPLE HTML</h1>
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+
+    </body>
+</html>
