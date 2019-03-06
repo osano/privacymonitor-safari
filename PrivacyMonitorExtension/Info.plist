@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>132</string>
+	<string>134</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -64,7 +64,7 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 Osano. All rights reserved.</string>
+	<string>Copyright © 2019 Osano. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>We read the fine print so you don't have to. Easily know which web sites you can trust with your personal data.</string>
 </dict>
